@@ -1,0 +1,28 @@
+#country-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+@media only screen and (max-width: 600px) {
+    #country-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+       
+
+    }
+  }
+
+  /* @media only screen and (max-width: 800px) {
+    #country-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+  } */
+.countryDivStyle{
+    border: 2px solid peru;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
